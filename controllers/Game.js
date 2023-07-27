@@ -1,4 +1,5 @@
 /* global games, BONUS, round */
+const sockets = require('../sockets');
 const leven = require('leven');
 const GraphemeSplitter = require('grapheme-splitter');
 const {
